@@ -8,10 +8,11 @@ export default function Home() {
   return (
     <div className="bg-slate-50">
       <section>
-        <MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb52">
+        <MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52">
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
+                <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
                 <img src="/snake-1.png" className='w-full'></img>
               </div>
               <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
@@ -62,7 +63,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='col-span-full lg:coll-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:px-0 lg:mt-20 h-fit'>
+          <div className='col-span-full lg:coll-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit'>
             <div className='relative md:max-w-xl'>
               <img src="/your-image.png" className='absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block' ></img>
               <img src="/line.png" className='absolute w-20 -left-6 -bottom-6 select-none'></img>
